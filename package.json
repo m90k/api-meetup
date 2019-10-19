@@ -1,0 +1,20 @@
+{
+  "name": "api-meetupapp",
+  "version": "1.0.0",
+  "description": "projeto final do bootcamp da rocketseat",
+  "main": "index.js",
+  "author": "Marcos de Souza",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sucrase": "^3.10.1"
+  }
+}
